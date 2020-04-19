@@ -37,11 +37,11 @@ our $| = 1;           # disable buffering on STDOUT
   # Create and setup our dropbox object
   my $dropbox = WebService::Dropbox->new(
     {
-        key    => 'MY_APP_KEY',      # App Key
-        secret => 'MY_APP_SECRET'    # App Secret
+        key    => '3e5v2gqkywtt3zq',      # App Key
+        secret => 'vbyvue7aa6fvv7u'    # App Secret
     }
   );
-$dropbox->access_token('MY_ACCESS_TOKEN');
+$dropbox->access_token('BAi-RLynXs0AAAAAAAKJ8-TbAJOXoVHxnYknj5CL7-r6mizaDwDfDU7Et8SLddEa');
 
 # These are the commands that a custom destination script must process
 my %commands = (
